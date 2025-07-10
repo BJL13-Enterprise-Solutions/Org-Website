@@ -53,7 +53,7 @@ This MVP creates an **AI-augmented digital public worker**, designed to:
 - 🤝 **Resource Matching**: Finds and suggests mutual aid, legal aid, and government resources
 - 🧠 **Explainable AI**: All steps include explanations of how/why answers were generated
 - 🪄 **PDF Generation**: Outputs filled or templated PDFs, letters, or filings
-- 🧱 **Modular**: Easily extended for local/state/federal support or multilingual use
+- 🧱 **Modular**: Easily extended for local/state/federal support and multilingual use
 
 ---
 
