@@ -1,91 +1,107 @@
-# BJL13.org — Website Codebase
+# BJL13 Enterprise Solutions — Org Website (`dev/com-buildout`)
 
-## 📌 Overview
-
-This repository contains the **official codebase and content** for [BJL13.org](https://bjl13.org) — the professional hub of **BJL13 Enterprise Solutions**. Originally seeded from a direct capture of the legacy `.org` site, this repo now serves as the **canonical source of truth** for future development, iteration, and publishing.
-
-> This code is live-backed, versioned, and actively evolving. No longer a temporary mirror.
-
----
-
-## 🧠 Origin Story
-
-This repo began as a clean archive of the prior `.org` website to preserve:
-
-- Static content (HTML, Markdown, and embedded data)
-- Legacy design/layouts for audit/comparison
-- Raw assets: images, downloadable files, old scripts
-
-Since then, it's transitioned into an **active development environment** for a rebuilt, modern site — likely static-first, privacy-respecting, and script-aware.
+[![Branch](https://img.shields.io/badge/branch-dev--com--buildout-blueviolet)](https://github.com/BJL13-Enterprise-Solutions/Org-Website/tree/dev/com-buildout)
+[![Status](https://img.shields.io/badge/status-in%20buildout-orange)](#status)
+[![Astro](https://img.shields.io/badge/built%20with-astro-ff6f00)](https://astro.build/)
+[![Accessibility](https://img.shields.io/badge/accessibility-WCAG%202.2%20%2F%20ADA-success)](https://www.w3.org/WAI/standards-guidelines/wcag/)
+[![License: MIT](https://img.shields.io/github/license/BJL13-Enterprise-Solutions/Org-Website?color=green)](./LICENSE)
 
 ---
 
-## 🚧 Current Status
-
-- ✅ **Repository is authoritative**
-- 🛠️ **Migration to new stack in progress** (e.g., Eleventy, Astro, Hugo, or custom shell-based static site build)
-- 🔍 All content under revision for:
-  - Accessibility
-  - Performance
-  - Portability
-  - Long-term maintainability
-
-Want to see where it’s going? Track branches like `dev`, `refactor`, or `modern`.
+> **NOTE:**  
+> You are viewing a *buildout/development branch*.  
+> Content here is **not yet live or canonical** unless mirrored in `/main`.  
+> For the authoritative site and documentation, see the [`/main` branch](https://github.com/BJL13-Enterprise-Solutions/Org-Website/tree/main).
 
 ---
 
----
+## 📜 [Mission Statement](./Mission-Statement.md)
 
-## 🚀 Goals
-
-- Static-first architecture (likely CI-published)
-- Source-controlled everything — no CMS lock-in
-- Makefile- or shell-driven build system, if applicable
-- Local-first authoring and testing
-- Accessibility & performance focused
+## 🤝 [Partnership Information](./Partnership-Info.md)
 
 ---
 
-## 📜 License
+## Overview
 
-Unless otherwise marked:
-- **Code**: MIT License
-- **Content**: CC-BY-NC 4.0 (Attribution, Non-Commercial)
+This branch powers the **.com buildout** for BJL13 Enterprise Solutions, a public-benefit LLC specializing in digital equity, automation, and accessible technology. We are currently in active development—expect rapid changes, breaking features, and experimental integrations.
 
-> For commercial usage or media syndication, please contact [business-operations@bjl13.com](mailto:business-operations@bjl13.com).
+[Full technical stack, folder structure, getting started, and contribution guidelines are below—see original README for details.]
+
+---
+# ✦ Core Product — AI Public Worker MVP  
+**BJL13 Enterprise Solutions LLC**  
+_A Digital Public Worker for Navigating Bureaucracy with Dignity_
 
 ---
 
-## 🤝 Contributing
+## 🧭 Overview
 
-This repo is *primarily single-maintainer*, but PRs, issues, and ideas are welcome via GitHub.
+This is the Core Product buildout for **BJL13 Enterprise Solutions (BES)** — a public-benefit LLC building tools that empower people marginalized by existing systems.
 
-- See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for guidelines
-- Raise issues for bugs, content corrections, or enhancement proposals
-
----
-
-## 🧭 Roadmap Ideas
-
-- [ ] Migrate core content to Markdown or structured content format
-- [ ] Replace legacy design with responsive layout
-- [ ] Automate builds via GitHub Actions or CI/CD runner
-- [ ] Integrate RSS or ActivityPub feed
-- [ ] Build out "now" page and journal-style changelog
+This MVP creates an **AI-augmented digital public worker**, designed to:
+- Help users complete government forms
+- Translate legal/bureaucratic language into plain English
+- Auto-fill documents
+- Advocate for users in navigating housing, health, legal, and economic systems
 
 ---
 
-## 🧩 Contact / Identity
+## 🔧 Features
 
-Brian J. London  
-`brian@bjl13.org`  
-[GPG Fingerprint 50D5 FA68 0553 46AC 2A4E  9322 B0D9 AA75 322A 6F7C]
-
----
-
-## 🕰️ Historical Note
-
-> This repo was originally a **static mirror of the `.org` site**, preserved for continuity during the 2025 web system rebuild. That content now lives under `/public/` or has been migrated into `/src/`.
+- 📄 **Form Assistance**: Real-time help filling out forms (PDFs, applications, appeals)
+- 🗣️ **Plain-Language Translation**: Converts jargon into understandable terms
+- 🤝 **Resource Matching**: Finds and suggests mutual aid, legal aid, and government resources
+- 🧠 **Explainable AI**: All steps include explanations of how/why answers were generated
+- 🪄 **PDF Generation**: Outputs filled or templated PDFs, letters, or filings
+- 🧱 **Modular**: Easily extended for local/state/federal support or multilingual use
 
 ---
 
+## ⚙️ Tech Stack
+
+| Component        | Tech Suggestion                         |
+|------------------|------------------------------------------|
+| Backend API      | `FastAPI` or `Express.js`                |
+| AI Memory/RAG    | `FAISS`, `Weaviate`, or `Chroma`         |
+| Agentic Logic    | `LangChain`, `CrewAI`, or `AutoGen`      |
+| Form Automation  | `Playwright`, `Puppeteer` (optional)     |
+| UI Framework     | `Tailwind CSS`, `Chakra UI`, `Next.js`   |
+| Containerization | `Docker`, `docker-compose`               |
+
+---
+
+## 🧪 MVP Roadmap
+
+### ✅ Phase 1: Local CLI + PDF Generator
+- [ ] CLI accepts plain-language queries
+- [ ] Agent identifies form type + needed info
+- [ ] System responds with:
+  - Guidance
+  - Optional filled PDF
+  - Resource links
+
+### 🖥️ Phase 2: Web App Integration
+- [ ] Minimal UI w/ text box and output card
+- [ ] Upload PDF or select from common forms
+- [ ] Edit & preview outputs
+- [ ] One-click export
+
+### 🔗 Phase 3: Memory + Agentic Routing
+- [ ] Add embedded knowledge store (FAISS)
+- [ ] Connect multiple specialist agents
+- [ ] Log outputs to local secure storage
+
+---
+
+## 🧑‍💻 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/bjl13/core-product.git
+cd core-product
+
+# Copy environment config
+cp .env.example .env
+
+# Launch with Docker
+docker-compose up --build
