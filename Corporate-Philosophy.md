@@ -213,9 +213,12 @@ We are a remote-first organization with roots in Kansas City.
 
 Veteran-founded and community-driven, we welcome inquiries from all sectors
 
-🌐 Website: [https://bjl13.org](https://bjl13.org/) – Visit our site for updates, product demos, and our latest blog posts on public-benefit tech.
-📩 General Contact: info@bjl13.com – For general inquiries, partnership opportunities, or media.
-🛠 Dev Contact: dev@bjl13.com – For technical queries, developer community interests, or open-source collaboration.
+🌐 Website: [https://bjl13.org](https://bjl13.org/) – Visit our site for updates, product demos, and our latest blog posts on public-benefit tech.\
+
+📩 General Contact: info@bjl13.com – For general inquiries, partnership opportunities, or media.\
+
+🛠 Dev Contact: dev@bjl13.com – For technical queries, developer community interests, or open-source collaboration.\
+
 🏢 Headquarters: Kansas City, Missouri, USA (operating on Central Time). Our team is distributed across various states and backgrounds, reflecting the diversity of the communities we serve.  
   
 
