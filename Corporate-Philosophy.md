@@ -42,7 +42,8 @@ These core beliefs are built on firsthand experiences spanning underserved commu
 
 At the heart of BES’s strategy is the systemic theory of empowerment:  
 
-<img style="vertical-align:middle" width="601" height="301" alt="POWER IS THE ABILITY TO MEANINGFULLY ALTER THE CONDITIONS OF ONE'S LIFE IN ACCORDANCE WITH ONE'S VALUES. INFRASTRUCTURE BE IT LEGAL, TECHNICAL, BUREAUGRATIC, OR SEMANTICIS THE MEDIUM THROUGH WHICH POWER IS DISTRIBUTED." src="assets/power/Stack.png" />
+
+<img width="1803" height="903" alt="Power is the ability to meaningfully alter the conditions of one's life in accordance with one's values. Infrastructure—be it legal, technical, bureaucratic, or semantic—is the medium through which power is distributed." src="https://github.com/user-attachments/assets/cf89f157-cbed-4a31-ac0e-96b4b6fdabc9" />
 
 
 In practice, this means that shifting the balance of power requires changing the underlying infrastructures that hold up that balance. 
