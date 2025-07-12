@@ -67,6 +67,10 @@ collections:
     permalink: /briefs/:name/
   internal:
     output: false
+  pages:
+    output: true
+    permalink: /:title/
+    source: _pages
 
 # ---- Navigation ----
 navigation:
@@ -78,6 +82,8 @@ navigation:
     url: /policies/
   - title: Briefs
     url: /briefs/
+  - title: Ethics
+    url: /ethics/
   - title: Contact
     url: /contact/
 
