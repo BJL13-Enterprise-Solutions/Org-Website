@@ -6,7 +6,7 @@ permalink: /about/
 
 # About BJL13 Enterprise Solutions
 
-BJL13 is a queer- and disability-owned public-benefit LLC headquartered in Merriam, Kansas.
+BJL13 is a queer- and disability-owned public-benefit LLC headquartered in the Kansas City metropolitan area.
 
 We design ethical, community-first technologies that empower people — not systems. Our focus areas include:
 
