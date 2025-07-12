@@ -20,6 +20,8 @@
     {% if page.css %}
       <link rel="stylesheet" href="{{ page.css | relative_url }}">
     {% endif %}
+<link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/mobile-nav.css' | relative_url }}">
   </head>
 
   <body>
@@ -36,7 +38,7 @@
               <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
           </ul>
-          <button id="dark-mode-toggle">🌗 Toggle Theme</button>
+          <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌗 Theme</button>
         </nav>
       </header>
 
