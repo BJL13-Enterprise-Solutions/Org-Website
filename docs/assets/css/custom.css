@@ -118,3 +118,44 @@ footer {
   background: rgba(255, 255, 255, 0.2);
   z-index: 0;
 }
+.splash {
+  text-align: center;
+  margin-top: 2em;
+}
+.logo {
+  max-width: 180px;
+  margin-bottom: 1em;
+}
+.lead {
+  font-size: 1.2em;
+  max-width: 700px;
+  margin: 1em auto;
+}
+
+.feature-grid {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+}
+.feature {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  padding: 1.5em;
+  max-width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+}
+
+.quote {
+  text-align: center;
+  margin: 3em auto;
+}
+.quote blockquote {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
