@@ -1,0 +1,27 @@
+
+/* Dark Mode Theme Overrides for BJL13 */
+body.dark-mode {
+  background: #1a1a1a;
+  color: #eee;
+}
+
+body.dark-mode a {
+  color: #EA8A7C;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #2a2a2a;
+  color: #ccc;
+}
+
+body.dark-mode .section {
+  background-color: #333;
+  color: #eee;
+}
+
+body.dark-mode button,
+body.dark-mode .btn {
+  background-color: #EA8A7C;
+  color: #1a1a1a;
+}

@@ -1,0 +1,45 @@
+
+/* Responsive Navigation Enhancements */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #CDA433;
+  margin: 1em;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(189, 174, 205, 0.9);
+    padding: 1em;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav li {
+    margin: 1em 0;
+  }
+}
