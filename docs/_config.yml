@@ -6,7 +6,7 @@ description: >
   Corporate portal for BJL13 — breaking the chains of today to set tomorrow free.
   Legal, strategic, and governance documentation for partners, collaborators, and the public.
 url: "https://corp.bjl13.com"
-baseurl: ""  # Leave blank unless deploying in subdir
+baseurl: "/docs/"
 
 # ---- Theme ----
 theme: null
