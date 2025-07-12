@@ -1,0 +1,120 @@
+/* ------------------------------
+   BJL13 Enterprise Solutions
+   Corporate Site CSS Overrides
+   ------------------------------
+   Brand Colors:
+     - Equity Purple: #BDAECD
+     - Liberation Coral: #EA8A7C
+     - Accent Gold: #CDA433
+   Fonts:
+     - Headings: Sora
+     - Body: Spectral
+   Gradient Background:
+     - Top-down: Purple → Coral
+--------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Sora:wght@400;600;800&display=swap');
+
+/* Base reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spectral', serif;
+  background: linear-gradient(to bottom, #BDAECD 0%, #EA8A7C 100%);
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Header overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', sans-serif;
+  color: #CDA433;
+  letter-spacing: 0.5px;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #CDA433;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Buttons */
+button, .btn {
+  background-color: #CDA433;
+  color: #111;
+  font-family: 'Sora', sans-serif;
+  border: none;
+  padding: 0.75em 1.25em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover, .btn:hover {
+  background-color: #a8852d;
+  color: #fff;
+}
+
+/* Navigation */
+nav {
+  background-color: rgba(189, 174, 205, 0.9);
+  font-family: 'Sora', sans-serif;
+  padding: 1em;
+}
+nav a {
+  color: #111;
+  margin: 0 1em;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background-color: #BDAECD;
+  color: #111;
+  padding: 1em;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* Content Blocks */
+.section {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 2em auto;
+  max-width: 960px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Placeholder */
+.logo {
+  max-width: 150px;
+  margin-bottom: 1em;
+}
+
+/* Subtle background elements */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 0;
+}
