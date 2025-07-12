@@ -51,6 +51,12 @@ defaults:
     values:
       layout: internal
       sitemap: false
+  - scope:
+      path: ""
+    values:
+      layout: default
+      css: "/assets/css/custom.css"
+      sitemap: true
 
 collections:
   policies:
